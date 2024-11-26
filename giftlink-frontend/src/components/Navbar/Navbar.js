@@ -28,7 +28,7 @@ export default function Navbar() {
     setIsLoggedIn(false);
     navigate(`/app`);
   };
-  const profileSecton = () => {
+  const profileSection = () => {
     navigate(`/app/profile`);
   };
   return (
@@ -83,7 +83,7 @@ export default function Navbar() {
                     <span
                       className="nav-link"
                       style={{ color: "black", cursor: "pointer" }}
-                      onClick={profileSecton}
+                      onClick={profileSection}
                     >
                       Welcome, {userName}
                     </span>{" "}
