@@ -1,3 +1,4 @@
 # coding-project-template
 
-rename to GiftLink
+rename project name to GiftLink on GitHub  
+rename local folder to giftlink
